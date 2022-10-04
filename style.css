@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --ColorWhite: white;
+  --ColorBlack: black;
+}
+.darkTheme {
+  --ColorWhite: black;
+  --ColorBlack: white;
+}
+div.background {
+  height: 100vh;
+  width: 100%;
+  background: var(--ColorWhite);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 30px;
+}
+header.topcontent {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header.topcontent h1 {
+  font-size: 50px;
+  font-family: tahoma;
+  letter-spacing: 2px;
+  color: orange;
+}
+header.topcontent a {
+  color: var(--ColorBlack);
+  text-decoration: none;
+}
+header.topcontent ul {
+  display: flex;
+  gap: 70px;
+  list-style-type: none;
+  font-size: 33px;
+}
+header.topcontent a:hover {
+  background-color: var(--ColorBlack);
+  padding: 2px 3px;
+  border-radius: 4px;
+  color: black;
+}
+header.topcontent input {
+  font-size: 20px;
+  font-weight: bold;
+  height: 35px;
+  background: transparent;
+  border: 2px solid orange;
+  border-right: none;
+  color: var(--ColorBlack);
+}
+header.topcontent button {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 80px;
+  height: 35px;
+  background-color: orange;
+  border: none;
+  padding: 0 20px;
+  margin-right: 2px;
+  cursor: pointer;
+  color: var(--ColorBlack);
+}
+
+section.body {
+  height: 75vh;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  padding-top: 30px;
+}
+section .bodyleft {
+  font-size: 40px;
+  width: 65%;
+  padding: right 70px;
+}
+section .bodyleft h1 {
+  color: var(--ColorBlack);
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+}
+section .bodyleft h1 span {
+  color: orange;
+}
+section .bodyleft p {
+  color: var(--ColorBlack);
+  padding-bottom: 30px;
+  line-height: 1.7em;
+}
+section .bodyleft button {
+  background-color: orange;
+  border-radius: 7px;
+  color: var(--ColorBlack);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+}
+section .bodyleft button:hover {
+  color: orange;
+  background-color: var(--ColorBlack);
+}
+
+section .bodyright {
+  height: 95%;
+  width: 500px;
+  background-color: var(--ColorBlack);
+  border-radius: 30px;
+  margin-left: 150px;
+  padding: 40px;
+}
+section .bodyright .h2One {
+  background-color: var(--ColorWhite);
+  color: orange;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 28px;
+  letter-spacing: 8px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .bodyright input {
+  width: 400px;
+  height: 50px;
+  color: var(--ColorBlack);
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  border-bottom: solid 2px orange;
+}
+section .bodyright input:focus {
+  color: white;
+}
+
+section .bodyright .h2Two a {
+  background-color: orange;
+  color: var(--ColorBlack);
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 28px;
+  letter-spacing: 8px;
+  margin-top: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .bodyright .h2Two a:hover {
+  background: var(--ColorWhite);
+  color: orange;
+}
+section .bodyright .pOne {
+  color: var(--ColorBlack);
+  text-align: center;
+  font-size: 25px;
+}
+section .bodyright .pTwo a {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+section .bodyright span {
+  color: var(--ColorBlack);
+  font-size: 24px;
+  margin-left: 8px;
+}
+section .bodyright .pThree {
+  color: var(--ColorBlack);
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}

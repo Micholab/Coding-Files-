@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <header class="topcontent">
+        <h1>MICHOLAB</h1>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">SERVICE</a></li>
+          <li><a href=""> DESIGN</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+        <input type="search" name="search" placeholder="Type to text" />
+        <button>Search</button>
+        <button id="toggle">Toggle</button>
+      </header>
+      <section class="body">
+        <div class="bodyleft">
+          <h1>
+            WEB DESIGN & <br />
+            <span> DEVELOPMENT </span><br />
+            COURSE
+          </h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+            ex commodi facilis nobis quis maiores alias nulla quia <br />
+            libero quidem doloribus quasi, excepturi <br />
+          </p>
+          <button>JOIN US</button>
+        </div>
+        <div class="bodyright">
+          <h2 class="h2One">Login Here</h2>
+          <form method="po" action="test.js">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email Here"
+            /><br /><br />
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Password Here"
+            />
+            <br />
+            <h2 class="h2Two"><a href="">Login</a></h2>
+            <p class="pOne">Dont Have an Account?</p>
+            <p class="pTwo">
+              <a href=""> Sign up <span> here</span></a>
+            </p>
+            <p class="pThree">Log In With</p>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script>
+      const toggle = document.getElementById("toggle");
+      toggle.onclick = function () {
+        document.body.classList.toggle("darkTheme");
+      };
+    </script>
+  </body>
+</html>
